@@ -60,7 +60,7 @@ public void addMinute(int second) {
 	if(second < 1440) {
 		second = second + 60;
 	}else {
-		addHour(second / 3600);
+		addHour(second / 3600); 
 	}
 }
 @Override
