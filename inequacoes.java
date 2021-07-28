@@ -32,7 +32,7 @@ public int getMinute() {
 	return ((second / 60) % 60);
 }
 @Override
-public void setMinute(int minute) {
+public void setMinute(int minute) { 
 	if(minute >= 0 && minute <= 59) {
 		second = (minute / 60);
 	}
