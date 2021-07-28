@@ -87,7 +87,7 @@ import src.br.upis.Relogio.IHorario;
 		}
 	}
 @Override
-	public void addMoreHours(int qHours) {
+	public void addMoreHours(int qHours) { 
 		for(int i = 0; i < (qHours * 3600); i++) {
 			addSecond();
 		}
