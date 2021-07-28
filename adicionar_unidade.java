@@ -32,7 +32,7 @@ package br.upis;
 				this.second = second;
 			}
 		}
-		public void addSecond() {
+		public void addSecond() { 
 			if(second < 86400) {
 				second = second + 1;
 			}else {
