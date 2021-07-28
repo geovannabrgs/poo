@@ -32,7 +32,7 @@ package br.upis;
 		}
 		public int getSecond() {
 			return second % 60;
-		}
+		} 
 		public void setSecond(int second) {
 			if(second >= 0 && second <= 59) {
 				this.second = second;
