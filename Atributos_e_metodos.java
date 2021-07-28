@@ -32,7 +32,7 @@ package br.upis;
 			}
 			public void setSecond(Byte second) {
 				if(second >= 0 && second <= 59) {
-					this.second = second;
+					this.second = second; 
 				}
 			}
 			public void addSecond() {
