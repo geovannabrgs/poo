@@ -31,7 +31,7 @@ package br.upis;
 		public void setDay(byte day) {
 			int lastDay = getLastDay(month, year);
 			if(day >= 1 && day <= lastDay) {
-				this.day = day;
+				this.day = day; 
 			}
 		}
 		public byte getMonth() {
